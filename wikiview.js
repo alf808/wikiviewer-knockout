@@ -13,7 +13,7 @@ var ViewModel = function() {
 	};
 
 	var wikiFetch = $.ajax( {
-		url: 'https://en.wikipedia.org/w/api.php?action=query&prop=extracts|pageimages&format=json&exsentences=1&exlimit=max&exintro=&explaintext=&exsectionformat=plain&generator=search&gsrnamespace=0&callback=?&gsrsearch=herman+hesse',
+		url: 'https://de.wikipedia.org/w/api.php?action=query&prop=extracts|pageimages&format=json&exsentences=1&exlimit=max&exintro=&explaintext=&exsectionformat=plain&generator=search&gsrnamespace=0&callback=?&gsrsearch=ruhrgebiet',
 		dataType: 'jsonp',
 		type: 'POST',
 		headers: { 'Api-User-Agent': 'FCC-alf808/1.0 (akademe@gmail.com)' },
